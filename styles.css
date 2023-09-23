@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-family: "Lexend", sans-serif;
+  padding: 12px 36px;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  background-color: transparent;
+  border-radius: 5em;
+  -webkit-box-shadow: inset 13px 10px 18px -10px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: inset 13px 10px 18px -10px rgba(0, 0, 0, 0.43);
+  box-shadow: inset 13px 10px 18px -10px rgba(0, 0, 0, 0.43);
+  font-size: clamp(0.625rem, 0.3333rem + 1.1667vw, 1.5rem);
+  background: rgba(212, 228, 239, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(212, 228, 239, 1)),
+    color-stop(100%, rgba(134, 174, 204, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+}
